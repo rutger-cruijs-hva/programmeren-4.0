@@ -35,13 +35,9 @@ const flags = [
   // ==============================
   
   // Kort geluid bij goed antwoord
-  const correctSound = new Audio("/Users/rutgercruijs/Desktop/rutgers-vlaggenquiz/Geluidjes/goed.mp3");
-  
-  // Kort geluid bij fout antwoord
-  const wrongSound = new Audio("/Users/rutgercruijs/Desktop/rutgers-vlaggenquiz/Geluidjes/fout.mp3");
-  
-  // Langer liedje bij eindscore
-  const scoreSound = new Audio("/Users/rutgercruijs/Desktop/rutgers-vlaggenquiz/Geluidjes/outro.mp3");
+  const correctSound = new Audio("Geluidjes/goed.mp3");
+  const wrongSound   = new Audio("Geluidjes/fout.mp3");
+  const scoreSound   = new Audio("Geluidjes/outro.mp3");
   
   // ==============================
   // FUNCTIES
