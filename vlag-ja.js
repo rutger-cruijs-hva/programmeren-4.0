@@ -8,6 +8,7 @@
 //
 // We gebruiken hier een array met objecten.
 // Elk object bevat een land (string) en een afbeelding (url).
+let naam = "Rutger";
 
 const flags = [
   { country: "Indonesië", url: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg" },
